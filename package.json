@@ -1,0 +1,35 @@
+{
+  "name": "testing_basics",
+  "version": "1.0.0",
+  "description": "Repo with some basic information about testing with Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhmachado/Testing_basics.git"
+  },
+  "author": "David Machado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhmachado/Testing_basics/issues"
+  },
+  "homepage": "https://github.com/dhmachado/Testing_basics#readme",
+  "devDependencies": {
+    "jest": "^29.4.1"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
+  }
+}
